@@ -9,6 +9,11 @@
     <string name="channel_name_format">虛擬卡槽 %d</string>
     <string name="profile_state_enabled">已啟用</string>
     <string name="profile_state_disabled">已停用</string>
+    <string name="profile_switch_accessibility">啟用或停用此 eSIM 設定檔</string>
+    <string name="profile_more_actions">更多設定檔操作</string>
+    <string name="profile_iccid_tap_hint">點選顯示 ICCID；長按複製</string>
+    <string name="profile_iccid_masked">ICCID •••• %s</string>
+    <string name="profile_card_accessibility">%1$s，%2$s，%3$s。點選查看更多操作。</string>
     <string name="profile_provider">電信業者:</string>
     <string name="profile_class">類型:</string>
     <string name="profile_enable">啟用</string>
@@ -204,4 +209,8 @@
     <string name="channel_name_format_se">虛擬卡槽 %1$d, SE %2$d</string>
     <string name="channel_name_format_usb">USB 讀卡機</string>
     <string name="channel_name_format_usb_se">USB 讀卡機, SE %d</string>
+    <string name="profile_operator_icon">電信商圖示</string>
+    <string name="profile_phone_unavailable">未提供號碼</string>
+    <string name="profile_mcc_mnc">MCC/MNC %s</string>
+    <string name="profile_country_calling_code">%1$s (+%2$s)</string>
 </resources>

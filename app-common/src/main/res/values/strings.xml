@@ -25,6 +25,11 @@
     <string name="profile_class_operational">Operational</string>
     <string name="profile_iccid" translatable="false">ICCID:</string>
     <string name="profile_sequence_number_format" translatable="false">#%d</string>
+    <string name="profile_switch_accessibility">Enable or disable this eSIM profile</string>
+    <string name="profile_more_actions">More profile actions</string>
+    <string name="profile_iccid_tap_hint">Tap to reveal ICCID; touch and hold to copy</string>
+    <string name="profile_iccid_masked">ICCID •••• %s</string>
+    <string name="profile_card_accessibility">%1$s, %2$s, %3$s. Tap for more actions.</string>
 
     <string name="profile_enable">Enable</string>
     <string name="profile_disable">Disable</string>
@@ -250,4 +255,8 @@
     <string name="pref_info_website">Official Website</string>
     <string name="pref_info_source_code">Source Code</string>
     <string name="pref_info_source_code_url" translatable="false">https://gitea.angry.im/PeterCxy/OpenEUICC</string>
+    <string name="profile_operator_icon">Operator icon</string>
+    <string name="profile_phone_unavailable">Number unavailable</string>
+    <string name="profile_mcc_mnc">MCC/MNC %s</string>
+    <string name="profile_country_calling_code">%1$s (+%2$s)</string>
 </resources>

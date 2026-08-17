@@ -62,6 +62,9 @@ internal object LpacJni {
     external fun profileGetName(curr: Long): String
     external fun profileGetNickname(curr: Long): String
     external fun profileGetServiceProvider(curr: Long): String
+    external fun profileGetIconType(curr: Long): String
+    external fun profileGetIcon(curr: Long): String
+    external fun profileGetMccMnc(curr: Long): String
     external fun profileGetStateString(curr: Long): String
     external fun profileGetClassString(curr: Long): String
 

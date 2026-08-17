@@ -9,6 +9,11 @@
     <string name="channel_name_format">逻辑卡槽 %d</string>
     <string name="profile_state_enabled">已启用</string>
     <string name="profile_state_disabled">已禁用</string>
+    <string name="profile_switch_accessibility">启用或禁用此 eSIM 配置文件</string>
+    <string name="profile_more_actions">更多配置文件操作</string>
+    <string name="profile_iccid_tap_hint">点击显示 ICCID；长按复制</string>
+    <string name="profile_iccid_masked">ICCID •••• %s</string>
+    <string name="profile_card_accessibility">%1$s，%2$s，%3$s。点击查看更多操作。</string>
     <string name="profile_provider">提供商:</string>
     <string name="profile_class">类型:</string>
     <string name="profile_enable">启用</string>
@@ -208,4 +213,8 @@
     <string name="channel_name_format_se">逻辑卡槽 %1$d, SE %2$d</string>
     <string name="channel_name_format_usb">USB 读卡器</string>
     <string name="channel_name_format_usb_se">USB 读卡器, SE %d</string>
+    <string name="profile_operator_icon">运营商图标</string>
+    <string name="profile_phone_unavailable">号码未提供</string>
+    <string name="profile_mcc_mnc">MCC/MNC %s</string>
+    <string name="profile_country_calling_code">%1$s (+%2$s)</string>
 </resources>

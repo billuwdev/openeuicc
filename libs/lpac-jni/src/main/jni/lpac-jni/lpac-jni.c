@@ -190,6 +190,18 @@ LPAC_JNI_STRUCT_GETTER_STRING(struct es10c_profile_info_list, profile, isdpAid, 
 LPAC_JNI_STRUCT_GETTER_STRING(struct es10c_profile_info_list, profile, profileName, Name)
 LPAC_JNI_STRUCT_GETTER_STRING(struct es10c_profile_info_list, profile, profileNickname, Nickname)
 LPAC_JNI_STRUCT_GETTER_STRING(struct es10c_profile_info_list, profile, serviceProviderName, ServiceProvider)
+LPAC_JNI_STRUCT_GETTER_STRING(struct es10c_profile_info_list, profile, icon, Icon)
+LPAC_JNI_STRUCT_GETTER_STRING(struct es10c_profile_info_list, profile, profileOwner.mccmnc, MccMnc)
+
+JNIEXPORT jstring JNICALL
+Java_net_typeblog_lpac_1jni_LpacJni_profileGetIconType(JNIEnv *env, jobject thiz, jlong raw) {
+    struct es10c_profile_info_list *p = (struct es10c_profile_info_list *) raw;
+    switch (p->iconType) {
+        case ES10C_ICON_TYPE_JPEG: return toJString(env, "jpeg");
+        case ES10C_ICON_TYPE_PNG: return toJString(env, "png");
+        default: return toJString(env, "");
+    }
+}
 
 JNIEXPORT jint JNICALL
 Java_net_typeblog_lpac_1jni_LpacJni_es10cEnableProfile(JNIEnv *env, jobject thiz, jlong handle,
